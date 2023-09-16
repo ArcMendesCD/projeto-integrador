@@ -1,0 +1,137 @@
+/* Reset de Estilos Básicos */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos da Barra de Navegação */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* Estilos da Imagem Circular */
+.avatar {
+    text-align: center;
+    margin: 30px;
+}
+
+.avatar img {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: 150px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%; /* Torna a imagem circular */
+    border: 2px solid #333; /* Adiciona uma borda */
+    display: inline-block;
+    object-fit: cover; /* Mantém a proporção da imagem */
+}
+
+/* Estilos do Conteúdo Principal */
+.main {
+    text-align: center;
+    padding: 0px;
+}
+.nome-bixo {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.info {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+/* Estilo para remover a borda dos campos de entrada de texto */
+.info input[type="text"] {
+    border: none;
+    outline: none;
+}
+/* Imagem edit */
+.edit-icon img {
+    cursor: pointer;
+    width: 14px; /* Ajuste o tamanho conforme necessário */
+    height: 14px; /* Ajuste o tamanho conforme necessário */
+    display: inline-block;
+}
+
+/* Estilos para Alinhamento de Tabela */
+table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+table td {
+    padding-left: 30px;
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+/* Estilos para os botões */
+
+/*
+.botoes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+} */
+
+.botoes {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente os botões */
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0; /* Coloca os botões na parte inferior */
+    left: 0; /* Alinha os botões à esquerda */
+    right: 0; /* Alinha os botões à direita */
+    margin: 20px;
+}
+
+.botoes button {
+    background-color: #c1c1c1;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 10px;
+    /*flex: 0; */
+}
+
+.botoes button:hover {
+    background-color: #b95929;    
+}
+
+
+.botoes img {
+    width: 32px;
+    height: 32px;
+}
+
+/* https://mui.com */
