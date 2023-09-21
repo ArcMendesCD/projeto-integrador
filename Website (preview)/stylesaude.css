@@ -20,16 +20,20 @@ h1 {
     text-align: left;
     max-width: 400px;
     margin: 0 auto;
-    display: block;
-}
+    display: flex;
+    justify-content: center;
+    place-items: start;
 
+    /* resolver essa parte */
+}
+ /* 
 .batimentos{
     text-align: left;
     max-width: 400px;
     margin: 0 auto;
-    /* display: inline-block; */
+   display: inline-block;
 }
-
+ */
 .botoes {
     display: flex;
     justify-content: center; 
