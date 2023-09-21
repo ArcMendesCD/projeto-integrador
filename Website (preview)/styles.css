@@ -89,12 +89,12 @@ table td {
 
 .botoes {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente os botões */
+    justify-content: center; 
     margin-top: 20px;
     position: absolute;
-    bottom: 0; /* Coloca os botões na parte inferior */
-    left: 0; /* Alinha os botões à esquerda */
-    right: 0; /* Alinha os botões à direita */
+    bottom: 0;
+    left: 0; 
+    right: 0; 
     margin: 20px;
 }
 
