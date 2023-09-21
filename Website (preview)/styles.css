@@ -36,12 +36,12 @@ nav a {
 }
 
 .avatar img {
-    width: 150px; /* Ajuste o tamanho conforme necessário */
-    height: 150px; /* Ajuste o tamanho conforme necessário */
-    border-radius: 50%; /* Torna a imagem circular */
-    border: 2px solid #333; /* Adiciona uma borda */
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    border: 2px solid #333; 
     display: inline-block;
-    object-fit: cover; /* Mantém a proporção da imagem */
+    object-fit: cover; 
 }
 
 /* Estilos do Conteúdo Principal */
@@ -69,8 +69,8 @@ nav a {
 /* Imagem edit */
 .edit-icon img {
     cursor: pointer;
-    width: 14px; /* Ajuste o tamanho conforme necessário */
-    height: 14px; /* Ajuste o tamanho conforme necessário */
+    width: 14px; 
+    height: 14px; 
     display: inline-block;
 }
 
@@ -86,18 +86,6 @@ table td {
     text-align: left;
     vertical-align: middle;
 }
-
-
-/* Estilos para os botões */
-
-/*
-.botoes-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 400px;
-    margin: 0 auto;
-} */
 
 .botoes {
     display: flex;
